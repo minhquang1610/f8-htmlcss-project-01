@@ -176,7 +176,20 @@ a {
     align-items: center;
     justify-content: space-between;
     /*  */
-    margin-top: 96px;
+    margin-top: 70px;
+}
+
+.clients .row-clients a {
+    display: flex;
+    align-items: center;
+    /*  */
+    border-radius: 12px;
+    padding: 0 42px;
+    height: 91px;
+}
+
+.clients .row-clients a:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);
 }
 
 /* ========== Guides ========== */
